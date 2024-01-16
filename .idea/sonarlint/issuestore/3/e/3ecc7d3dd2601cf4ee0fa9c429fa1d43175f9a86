@@ -1,0 +1,54 @@
+
+mpython:S116P"JRename this field "As" to match the regular expression ^[_a-z][_a-z0-9]*$.(ƒç¬™ıÿÿÿÿ8á©²ßĞ1
+mpython:S116O"JRename this field "Qs" to match the regular expression ^[_a-z][_a-z0-9]*$.(€º•®ûÿÿÿÿ8á©²ßĞ1
+lpython:S117D"NRename this parameter "As" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã‰Ï8á©²ßĞ1
+lpython:S117D"NRename this parameter "Qs" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã‰Ï8á©²ßĞ1
+Kpython:S1172v",Remove the unused function parameter "disp".(ŞÔ¼8ª²ßĞ1
+hpython:S6711z"DUse a "numpy.random.Generator" here instead of this legacy function.(¶şËşÿÿÿÿ8ª²ßĞ1
+mpython:S100Ÿ"NRename method "_apply_U_A" to match the regular expression ^[a-z_][a-z0-9_]*$.(ı¨òê8ª²ßĞ1
+rpython:S100ª"NRename method "_apply_U_B" to match the regular expression ^[a-z_][a-z0-9_]*$.(ù†Ş¦ùÿÿÿÿ8ª²ßĞ1
+kpython:S100¹"LRename method "_get_u_A" to match the regular expression ^[a-z_][a-z0-9_]*$.(ßÅâ8ª²ßĞ1
+tpython:S100Ê"URename method "_apply_u_B_onsite" to match the regular expression ^[a-z_][a-z0-9_]*$.(Û–´±8ª²ßĞ1
+Epython:S1481Î"%Remove the unused local variable "u".(ÂÌ”î8ª²ßĞ1
+Opython:S1172Õ"/Remove the unused function parameter "gamma_t".(Ùáå8ª²ßĞ1
+vpython:S100Õ"WRename method "_apply_u_B_coupling" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ùáå8ª²ßĞ1
+tpython:S100Ş"URename method "_apply_h_B_onsite" to match the regular expression ^[a-z_][a-z0-9_]*$.(ú•¾›8ª²ßĞ1
+Epython:S1481â"%Remove the unused local variable "u".(¼Âç¥8ª²ßĞ1
+python:S117ğ"]Rename this local variable "h_B_coupling" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñòÜÿüÿÿÿÿ8ª²ßĞ1
+vpython:S100ë"WRename method "_apply_h_B_coupling" to match the regular expression ^[a-z_][a-z0-9_]*$.(ıÉ¼©8ª²ßĞ1
+‚python:S117ø"^Rename this local variable "convertString" to match the regular expression ^[_a-z][a-z0-9_]*$.(å–¨´üÿÿÿÿ8ª²ßĞ1
+xpython:S117ÿ"TRename this local variable "Str" to match the regular expression ^[_a-z][a-z0-9_]*$.(…†‚ûıÿÿÿÿ8ª²ßĞ1
+rpython:S117¹"NRename this parameter "As" to match the regular expression ^[_a-z][a-z0-9_]*$.(ø€¾íùÿÿÿÿ8ª²ßĞ1
+rpython:S117¹"NRename this parameter "Qs" to match the regular expression ^[_a-z][a-z0-9_]*$.(ø€¾íùÿÿÿÿ8ª²ßĞ1
+qpython:S117ö"MRename this parameter "P" to match the regular expression ^[_a-z][a-z0-9_]*$.(ë¶ºıÿÿÿÿ8ª²ßĞ1
+lpython:S117ú"MRename this parameter "P" to match the regular expression ^[_a-z][a-z0-9_]*$.(–òÂ¿8ª²ßĞ1
+lpython:S117ú"MRename this parameter "Q" to match the regular expression ^[_a-z][a-z0-9_]*$.(–òÂ¿8ª²ßĞ1
+npython:S116ı"JRename this field "Qs" to match the regular expression ^[_a-z][_a-z0-9]*$.(—„—Éùÿÿÿÿ8ª²ßĞ1
+ipython:S116ş"JRename this field "As" to match the regular expression ^[_a-z][_a-z0-9]*$.(õøœ8ª²ßĞ1
+…python:S101Â"aRename class "DC_QAOA" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ë¤¹®üÿÿÿÿ8ª²ßĞ1
+rpython:S117ò"NRename this parameter "As" to match the regular expression ^[_a-z][a-z0-9_]*$.(øºœ¾üÿÿÿÿ8ª²ßĞ1
+rpython:S117ò"NRename this parameter "Qs" to match the regular expression ^[_a-z][a-z0-9_]*$.(øºœ¾üÿÿÿÿ8ª²ßĞ1
+zpython:S117Ê"VRename this local variable "As_nx" to match the regular expression ^[_a-z][a-z0-9_]*$.(ø³±Íøÿÿÿÿ8ª²ßĞ1
+qpython:S117Ù"MRename this parameter "L" to match the regular expression ^[_a-z][a-z0-9_]*$.(¹ûîÒıÿÿÿÿ8ª²ßĞ1
+qpython:S117Ù"MRename this parameter "R" to match the regular expression ^[_a-z][a-z0-9_]*$.(¹ûîÒıÿÿÿÿ8‚ª²ßĞ1
+xpython:S117ë"TRename this local variable "R_x" to match the regular expression ^[_a-z][a-z0-9_]*$.(àÕèªÿÿÿÿÿ8‚ª²ßĞ1
+upython:S117Ü"VRename this local variable "ind_L" to match the regular expression ^[_a-z][a-z0-9_]*$.(°¸…ß8‚ª²ßĞ1
+upython:S117Ü"VRename this local variable "ind_R" to match the regular expression ^[_a-z][a-z0-9_]*$.(°¸…ß8‚ª²ßĞ1
+mpython:S117ş"NRename this parameter "LR" to match the regular expression ^[_a-z][a-z0-9_]*$.(úë¬À8‚ª²ßĞ1
+ppython:S117ş"QRename this parameter "ind_L" to match the regular expression ^[_a-z][a-z0-9_]*$.(úë¬À8‚ª²ßĞ1
+ppython:S117ş"QRename this parameter "ind_R" to match the regular expression ^[_a-z][a-z0-9_]*$.(úë¬À8‚ª²ßĞ1
+npython:S117ş"ORename this parameter "x_L" to match the regular expression ^[_a-z][a-z0-9_]*$.(úë¬À8‚ª²ßĞ1
+npython:S117ş"ORename this parameter "x_R" to match the regular expression ^[_a-z][a-z0-9_]*$.(úë¬À8‚ª²ßĞ1
+|python:S117…"XRename this local variable "x_R_new" to match the regular expression ^[_a-z][a-z0-9_]*$.(åÏ–°üÿÿÿÿ8‚ª²ßĞ1
+Rpython:S1940‡"-Use the opposite operator ("not in") instead.(Êë‚˜üÿÿÿÿ8‚ª²ßĞ1
+spython:S1854¤"NRemove this assignment to local variable 'new_group'; the value is never used.(£øÛçşÿÿÿÿ8‚ª²ßĞ1
+lpython:S6729§"MUse "np.nonzero" when only the condition parameter is provided to "np.where".(ôÜËa8‚ª²ßĞ1
+{python:S1845"[Rename field "ls" to prevent any misunderstanding/clash with field "Ls" defined on line 786(´³¾„8‚ª²ßĞ1
+npython:S116Œ"JRename this field "Qs" to match the regular expression ^[_a-z][_a-z0-9]*$.(€º•®ûÿÿÿÿ8‚ª²ßĞ1
+ipython:S116’"JRename this field "Ls" to match the regular expression ^[_a-z][_a-z0-9]*$.(æÓÍ8‚ª²ßĞ1
+rpython:S117ı"NRename this parameter "As" to match the regular expression ^[_a-z][a-z0-9_]*$.(şÜËŒúÿÿÿÿ8‚ª²ßĞ1
+rpython:S117ı"NRename this parameter "Ls" to match the regular expression ^[_a-z][a-z0-9_]*$.(şÜËŒúÿÿÿÿ8‚ª²ßĞ1
+rpython:S117ı"NRename this parameter "Qs" to match the regular expression ^[_a-z][a-z0-9_]*$.(şÜËŒúÿÿÿÿ8‚ª²ßĞ1
+Npython:S1481¡")Remove the unused local variable "count".(óÿÑ—øÿÿÿÿ8‚ª²ßĞ1
+ypython:S3776Ÿ"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(Â‚Ø»şÿÿÿÿ8‚ª²ßĞ1
+rpython:S6729È"MUse "np.nonzero" when only the condition parameter is provided to "np.where".(Ç–µùÿÿÿÿ8‚ª²ßĞ1

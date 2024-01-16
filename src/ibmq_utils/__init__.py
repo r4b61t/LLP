@@ -5,11 +5,10 @@ def generate_random_dataset(M, N, strength=0.2):
     As = np.zeros((N,N))
     for i in range(N):
         for j in range(i):
-            x = np.random.random()
-            while x > strength:
+            if np.random.random() > strength:
                 x = np.random.random()
-            As[i][j] = x
-            As[j][i] = x
+                As[i][j] = x
+                As[j][i] = x
 
     Qs = np.zeros((N,M))
     expected_returns = np.linspace(1/M, 1, M)[:: -1]*(1/M)

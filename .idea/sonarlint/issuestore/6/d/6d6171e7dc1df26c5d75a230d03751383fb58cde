@@ -1,0 +1,19 @@
+
+qpython:S117"SRename this local variable "As" to match the regular expression ^[_a-z][a-z0-9_]*$.(åôÉ¸8ÂäçñÌ1
+kpython:S117"MRename this parameter "M" to match the regular expression ^[_a-z][a-z0-9_]*$.(ó®ëÑ8ÂäçñÌ1
+kpython:S117"MRename this parameter "N" to match the regular expression ^[_a-z][a-z0-9_]*$.(ó®ëÑ8ÂäçñÌ1
+vpython:S117"SRename this local variable "Qs" to match the regular expression ^[_a-z][a-z0-9_]*$.(ËÃæÃüÿÿÿÿ8ÂäçñÌ1
+vpython:S117"SRename this local variable "Vs" to match the regular expression ^[_a-z][a-z0-9_]*$.(¨­£ÿÿÿÿÿ8ÂäçñÌ1
+cpython:S6711"DUse a "numpy.random.Generator" here instead of this legacy function.(²Ğàà8ÂäçñÌ1
+hpython:S6711	"DUse a "numpy.random.Generator" here instead of this legacy function.(êâŸÏøÿÿÿÿ8Û®éñÌ1
+cpython:S6711"DUse a "numpy.random.Generator" here instead of this legacy function.(í¹ƒó8ÂäçñÌ1
+kpython:S117"MRename this parameter "M" to match the regular expression ^[_a-z][a-z0-9_]*$.(¿Â‰İ8ÂäçñÌ1
+kpython:S117"MRename this parameter "N" to match the regular expression ^[_a-z][a-z0-9_]*$.(¿Â‰İ8ÂäçñÌ1
+ppython:S117 "MRename this parameter "M" to match the regular expression ^[_a-z][a-z0-9_]*$.(©ĞÈÈüÿÿÿÿ8ÂäçñÌ1
+ppython:S117 "MRename this parameter "N" to match the regular expression ^[_a-z][a-z0-9_]*$.(©ĞÈÈüÿÿÿÿ8ÂäçñÌ1
+fpython:S930)"CAdd 2 missing arguments; 'bit_repr' expects 3 positional arguments.(ô”¿ùÿÿÿÿ8ÂäçñÌ1
+kpython:S117."MRename this parameter "M" to match the regular expression ^[_a-z][a-z0-9_]*$.(•ó±ú8ÂäçñÌ1
+kpython:S117."MRename this parameter "N" to match the regular expression ^[_a-z][a-z0-9_]*$.(•ó±ú8ÂäçñÌ1
+ppython:S1173"MRename this parameter "M" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÕŒŞôıÿÿÿÿ8ÂäçñÌ1
+ppython:S117@"MRename this parameter "M" to match the regular expression ^[_a-z][a-z0-9_]*$.(áº“´ùÿÿÿÿ8ÂäçñÌ1
+ppython:S117@"MRename this parameter "N" to match the regular expression ^[_a-z][a-z0-9_]*$.(áº“´ùÿÿÿÿ8ÂäçñÌ1

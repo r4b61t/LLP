@@ -1,0 +1,17 @@
+
+fpython:S116"JRename this field "As" to match the regular expression ^[_a-z][_a-z0-9]*$.(«áêýÿÿÿÿ
+npython:S116"RRename this field "Parameters" to match the regular expression ^[_a-z][_a-z0-9]*$.(ì‰¸¦þÿÿÿÿ
+ppython:S116"TRename this field "InitialState" to match the regular expression ^[_a-z][_a-z0-9]*$.(Åž™ðøÿÿÿÿ
+fpython:S116"ORename this field "Epsilon" to match the regular expression ^[_a-z][_a-z0-9]*$.(²À‚§
+fpython:S116
+"JRename this field "Qs" to match the regular expression ^[_a-z][_a-z0-9]*$.(–Öùøÿÿÿÿ
+apython:S100"ERename method "P" to match the regular expression ^[a-z_][a-z0-9_]*$.(‚¿ÆÜúÿÿÿÿ
+\python:S100"ERename method "N" to match the regular expression ^[a-z_][a-z0-9_]*$.(ß«¯ç
+\python:S100"ERename method "M" to match the regular expression ^[a-z_][a-z0-9_]*$.(ïã·ù
+gpython:S100"KRename method "NQubits" to match the regular expression ^[a-z_][a-z0-9_]*$.(‰ÕÇ½üÿÿÿÿ
+bpython:S100!"FRename method "UA" to match the regular expression ^[a-z_][a-z0-9_]*$.(”ŒÔçøÿÿÿÿ
+bpython:S100&"FRename method "UB" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÁŸ÷èúÿÿÿÿ
+]python:S100,"FRename method "HA" to match the regular expression ^[a-z_][a-z0-9_]*$.(»¼êÔ
+bpython:S100K"FRename method "HB" to match the regular expression ^[a-z_][a-z0-9_]*$.(òÇ”ˆÿÿÿÿÿ
+Dpython:S1481k",Remove the unused local variable "res_name".(×ÄÑ…
+Upython:S112–">Replace this generic exception class with a more specific one.(Œåß%
