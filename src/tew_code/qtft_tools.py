@@ -1,5 +1,7 @@
 # Note: to edit
 # QAOA , combine_groups
+from typing import List
+
 import logging
 
 #
@@ -516,7 +518,7 @@ class DC_QAOA():
 
         self.N = Qs.shape[0]
         self.M = Qs.shape[1]
-        self.groups = []
+        self.groups: List[Group] = []
         self.res = None
 
     def optimized(self, maxiter=20, method='COBYLA'):
@@ -539,9 +541,13 @@ class DC_QAOA():
             # to edit -------------------------------------------------------
             m.optimized(maxiter=maxiter, method=method)
             logging.info(f"QAOA for group {i} is done. Saving results.")
+            delattr(m, 'ub_integer_cache')
+            delattr(m, 'hb_taylor_terms')
+            delattr(m, 'hb')
+            delattr(m, 'ha')
 
             # Output probabilities
-            ps = np.abs(np.reshape(m.psi, -1)) ** 2
+            ps = m.probabilities.copy()
 
             # Save Candidates
             inds = np.argsort(ps)[::-1][:self.n_candidates]
@@ -564,6 +570,7 @@ class DC_QAOA():
 
             q_number = m.qubits_number
             action_bit_len = int(qubits_number_for_action(m.action_number))
+            action_bit_len = m.max_n
 
             logging.info("Begin state reconstruction.")
             if i == 0:

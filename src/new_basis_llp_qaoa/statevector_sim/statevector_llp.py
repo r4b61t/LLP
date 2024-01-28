@@ -26,6 +26,10 @@ PAULI_I = np.identity(2)
 def seperate_beta(beta, interval):
     c, f = beta.__divmod__(interval)
     c = int(c)
+    if c > 16:
+        c = 16
+    if c < -16:
+        c = -16
     if f > interval / 2:
         c = c + 1
         f = f - interval
@@ -45,7 +49,7 @@ def qubits_number_for_action(action):
     return np.ceil(np.log2(action))
 
 
-def get_qubits_number(loanee, action):
+def get_qubits_number(loanee, action) -> int:
     return int(qubits_number_for_action(action) * loanee)
 
 
@@ -212,6 +216,8 @@ class StateVectorLLP:
     def max_n(self):
         return qubits_number_for_number_of_actions(self.action_number)
 
+
+
     @property
     def profit_term(self):
         n = self.qubits_number
@@ -305,7 +311,6 @@ class StateVectorLLP:
                 ub = self.unitary_b_approx(beta)
                 psi = ub @ ua @ psi
             energy = get_energy(psi, ha).real
-            print(gammas,'\n', betas,'\n', energy)
             return energy
 
         def callback(xk):

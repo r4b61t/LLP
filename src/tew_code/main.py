@@ -1,6 +1,7 @@
 import numpy as np
 
 from ibmq_utils import generate_random_dataset
+import time
 from qtft_tools import *
 from scipy import sparse
 import matplotlib.pyplot as plt
@@ -17,15 +18,14 @@ As = sparse.load_npz('data/As.npz').toarray()
 # Provision constraints
 Ls = sparse.load_npz('data/Ls.npz').toarray()
 
-Qs_with_4_actions = Qs.copy()[:,:4]
-Ls_with_4_actions = Ls.copy()[:,:4]
+Qs_with_4_actions = Qs.copy()[:, :4]
+Ls_with_4_actions = Ls.copy()[:, :4]
 
-Qs = Qs_with_4_actions
-Ls = Ls_with_4_actions
+selected_number_of_loanees = 600
 
-# np.random.seed(8)
-# As, Qs = generate_random_dataset(4, 300, 0.9955138888888889)
-# Ls = Qs
+Qs = Qs_with_4_actions[:selected_number_of_loanees]
+Ls = Ls_with_4_actions[:selected_number_of_loanees]
+As = As[:selected_number_of_loanees, :selected_number_of_loanees]
 
 # Number of assets
 N = len(Qs)
@@ -45,7 +45,7 @@ max_community_size = 6
 
 # Weight (epsilon) in the objective function
 e = 0.2
-
+start_time = time.time()
 # Peform DC QAOA
 print('-- Performing DC-QAOA --')
 m = DC_QAOA(Qs, As, e, p, n_candidates, max_community_size)
@@ -139,4 +139,4 @@ plt.ylabel("Provision", fontsize=14)
 plt.tight_layout()
 plt.savefig("pics/L.png", dpi=400)
 
-print('-- Done --')
+print(f'-- Done in {time.time() - start_time}s --')
